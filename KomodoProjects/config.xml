@@ -9,9 +9,7 @@
     <description>
         Mobile App Demonstration
     </description>
-    <author>
-        Tawny A. Fowler
-    </author>
+    <author> Tawny A. Fowler </author>
     <preference name="phonegap-version" value="cli-7.0.1"/>
     <plugin name="cordova-plugin-whitelist" source="npm"/>
     <access origin="*"/>
