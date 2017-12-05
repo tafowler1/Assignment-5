@@ -21,7 +21,7 @@
     <access origin="*"/>
     <plugin name="cordova-plugin-geolocation" source="npm"/>
     <plugin name="cordova-plugin-splashscreen" source="npm"/>
-    <preference name="SplashScreenDelay" value= "3000"/>
+    <!--<preference name="SplashScreenDelay" value= "3000"/>-->
     
     <icon src="images/ChipCard.png" />
     <splash src="images/splash.png" />
