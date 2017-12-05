@@ -376,23 +376,23 @@ function GenerateOutput(output)
     MenuChoice("Area1");
 }
 
-//function	Location()	
-//{
-				//var	geo	=navigator.geolocation;	
-				//if	(geo)
-				//{
-				//geo.getCurrentPosition(showPosition);
-				//}
-				//else
-				//{
-				//alert("Geolocation	is	not	supported");
-				//}
-//}
+function	Location()	
+{
+				var	geo	=navigator.geolocation;	
+				if	(geo)
+				{
+				geo.getCurrentPosition(showPosition);
+				}
+				else
+				{
+				alert("Geolocation	is	not	supported");
+				}
+}
 
-//function	showPosition(position)
-//{
-				//var	latitude = position.coords.latitude;
-				//var	longitude =	position.coords.longitude;
-				//document.getElementById("latitude").innerHTML=latitude;
-				//document.getElementById("longitude").innerHTML=longitude;
-//}
+function	showPosition(position)
+{
+				var	latitude = position.coords.latitude;
+				var	longitude =	position.coords.longitude;
+				document.getElementById("latitude").innerHTML=latitude;
+				document.getElementById("longitude").innerHTML=longitude;
+}
