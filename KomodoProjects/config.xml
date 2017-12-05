@@ -18,6 +18,6 @@
     <access origin="*"/>
     <plugin name="cordova-plugin-geolocation" source="npm"/>
     
-    <icon src="ChipCard.png" />
-    <splash src="splash.png" />
+    <icon src="images/ChipCard.png" />
+    <splash src="images/splash.png" />
 </widget>
