@@ -21,8 +21,8 @@
     
     <icon src="images/ChipCard.png" />
     <splash src="images/splash.png" />
-    
-</widget>
-<meta-data
+    <meta-data
           android:name="com.google.android.geo.API_Key"
           android:value="AIzaSyCogJa7WXGi0NqX1OacacTrAvb1z_HMg4w"/>
+    
+</widget>
