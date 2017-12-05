@@ -24,6 +24,7 @@ background-color: rgb(255,105,180);
 #Area8 {display: none; position: relative; height: 100%; width: 600px; float: none;}
 table { border: 2px solid; table-layout: auto; border-color: black; padding: 2px; text-align: center;}
 
+
 .form {display: inline-block;
 width: 100px;
 margin-right: 10px;
