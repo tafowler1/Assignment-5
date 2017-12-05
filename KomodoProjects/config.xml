@@ -17,6 +17,7 @@
     <plugin name="cordova-plugin-whitelist" source="npm"/>
     <access origin="*"/>
     <plugin name="cordova-plugin-geolocation" source="npm"/>
+    <plugin name="cordova-plugin-splashscreen" source="npm"/>
     
     <icon src="images/ChipCard.png" />
     <splash src="images/splash.png" />
