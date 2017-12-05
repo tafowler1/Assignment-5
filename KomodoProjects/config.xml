@@ -15,12 +15,13 @@
     <preference name="phonegap-version" value="cli-7.0.1"/>
     <plugin name="cordova-plugin-whitelist" source="npm"/>
     <access origin="*"/>
+    
     <plugin name="cordova-plugin-geolocation" source="npm"/>
     <plugin name="cordova-plugin-splashscreen" source="npm"/>
     <preference name="SplashScreenDelay" value= "3000"/>
     
     <icon src="images/ChipCard.png" />
-    <splash src="images/splash.png" />
+    <splash src="images/splash2.png" />
     <meta-data
           android:name="com.google.android.geo.API_Key"
           android:value="AIzaSyCogJa7WXGi0NqX1OacacTrAvb1z_HMg4w"/>
