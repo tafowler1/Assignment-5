@@ -5,6 +5,10 @@ function MenuChoice(selection)
     document.getElementById("Area2").style.display="none";
     document.getElementById("Area3").style.display="none";
     document.getElementById("Area5").style.display="none";
+    document.getElementById("Area7").style.display="none";
+    document.getElementById("Area8").style.display="none";
+    document.getElementById("Area9").style.display="none";
+    document.getElementById("Area10").style.display="none";
     
     switch(selection)
     {
@@ -26,6 +30,12 @@ function MenuChoice(selection)
         case "Area8":
             document.getElementById("Area8").style.display="initial";
             break;
+        case "Area9":
+            document.getElementById("Area9").style.display="initial";
+            break;
+        case "Area10":
+            document.getElementById("Area10").style.display="initial";
+            break;
         case "None":
             break;
         default:
@@ -41,6 +51,8 @@ function ListCustomers()
     document.getElementById("Area6").style.display="none";
     document.getElementById("Area7").style.display="none";
     document.getElementById("Area8").style.display="none";
+    document.getElementById("Area9").style.display="none";
+    document.getElementById("Area10").style.display="none";
     document.getElementById("Area1").style.display="initial";
     var xmlhttp= new XMLHttpRequest();
     var url ="https://student.business.uab.edu/jsonwebservice/service1.svc/getAllCustomers";
@@ -95,7 +107,7 @@ function GenerateOutput(result)
             var output=JSON.parse(xmlhttp.responseText);
             GenerateOutput(output);
         }
-    }
+    };
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
  }
@@ -225,6 +237,8 @@ function GetCustomerOrders()
          document.getElementById("Area4").style.display="none";
          document.getElementById("Area7").style.display="none";
          document.getElementById("Area8").style.display="none";
+         document.getElementById("ARea9").style.display="none";
+         document.getElementById("Area10").style.display="none";
         document.getElementById("Area6").style.display="initial";
 	if(orderID == 'default') return;
 	var xhttp;
@@ -329,6 +343,8 @@ function ToAddCustomer()
     document.getElementById("Area6").style.display="none";
     document.getElementById("Area1").style.display="none";
     document.getElementById("Area8").style.display="none";
+    document.getElementById("Area9").style.display="none";
+    document.getElementById("Area10").style.display="none";
     document.getElementById("Area7").style.display="initial";
     }
 
